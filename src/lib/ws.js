@@ -5,7 +5,9 @@ if (typeof WebSocket !== 'undefined') {
 } else if (typeof MozWebSocket !== 'undefined') {
   ws = MozWebSocket
 } else {
-  ws = window.WebSocket || window.MozWebSocket
+  if (typeof window !== 'undefined') {
+    ws = window.WebSocket || window.MozWebSocket
+  }
 }
 
 module.exports = ws
