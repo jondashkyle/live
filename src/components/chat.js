@@ -8,7 +8,7 @@ module.exports = chat
 
 function chat (state, emit) {
   return html`
-    <div class="x vh100 xdc">
+    <div class="x xx h100 xdc">
       <div class="xx os">
         ${state.chat.messages.map(elMessage)}
       </div>
@@ -25,7 +25,7 @@ function chat (state, emit) {
         type="text"
         value="${state.chat.user.message}"
         oninput=${handleInput}
-        placeholder="Message…"
+        placeholder="message…"
         class="w100 fs1 ff-sans m0 p1 bgc-grey_15"
       />
     `

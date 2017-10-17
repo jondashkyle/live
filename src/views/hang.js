@@ -12,14 +12,14 @@ module.exports = view
 function view (state, emit) {
   return html`
     <div class="x vh100">
-      <div class="x xdc c8 bgc-black fc-white">
+      <div class="x xdc c12 bgc-black fc-white" sm="c8">
         ${channel()}
         ${state.chat.active
           ? scratch({ text: state.chat.scratch })
           : loading()
         }
       </div>
-      <div class="c4 h100">
+      <div class="dn c4 h100" sm="db">
         ${state.chat.active
           ? chat(state, emit)
           : loading()
