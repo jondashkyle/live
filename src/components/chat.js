@@ -4,25 +4,36 @@ module.exports = chat
 
 function chat (state, emit) {
   return html`
-    <div>
-      <form>
-        <input
-          type="text"
-          value="${state.chat.user.message}"
-          oninput=${handleInput}
-          style="border: 1px solid #ccc"
-        />
-        <button onclick=${handleClick}>send</button>
-      </form>
-      <div>
-        <div>${state.chat.messages.map(function (message) {
-          return html`
-            <div>${message.message}</div>
-          `
-        })}</div>
+    <div class="x vh100 xdc">
+      <div class="xx os">
+        ${state.chat.messages.map(elMessage)}
       </div>
+      <form>
+        ${elInput()}
+        <button class="dn" onclick=${handleClick}>send</button>
+      </form>
     </div>
   `
+
+  function elInput () {
+    return html`
+      <input
+        type="text"
+        value="${state.chat.user.message}"
+        oninput=${handleInput}
+        placeholder="Message…"
+        class="w100 fs1 ff-sans m0 p1 bgc-grey_15"
+      />
+    `
+  }
+
+  function elMessage (data) {
+    return html`
+      <div class="p1 bb1-black lh1-5">
+        ${data.message}
+      </div>
+    `
+  }
 
   function handleInput (event) {
     emit(state.events.CHAT_USER, {

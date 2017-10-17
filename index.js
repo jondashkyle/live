@@ -12,6 +12,7 @@ app.use(require('./src/plugins/chat'))
 app.route('*', wrapper(require('./src/views/main')))
 app.route('/', wrapper(require('./src/views/main')))
 app.route('/stream', wrapper(require('./src/views/hang')))
+app.route('/chat', wrapper(require('./src/views/chat')))
 
 if (module.parent) module.exports = app
 else app.mount('body')
