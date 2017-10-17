@@ -1,7 +1,5 @@
 module.exports = app
 
 function app (state, emitter) {
-  state.app = {
-    live: true
-  }
+  state.app = { live: false }
 }
