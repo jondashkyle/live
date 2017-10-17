@@ -4,11 +4,18 @@ var ress = fs.readFileSync('node_modules/ress/ress.css', 'utf8')
 
 var utils = [ ]
 var custom = `
-  html { font-size: 100% }
+  html { font-size: 130% }
+
+  input { outline: 0 }
+
+  @font-face {
+    font-family: 'Roboto Mono';
+    src: url('/assets/RobotoMono-Light.ttf');
+  }
 `
 
 var typography = {
-  sans: '"SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace'
+  sans: '"Roboto Mono", Times, Consolas, "Liberation Mono", Menlo, Courier, monospace'
 }
 
 utils.push({
@@ -16,7 +23,6 @@ utils.push({
   join: '-',
   vals: typography
 })
-
 
 var gr8css = gr8({
   utils: utils

@@ -5,6 +5,7 @@ var css = require('sheetify')
 var app = choo()
 css('./src/design.js')
 
+app.use(require('./src/plugins/app'))
 app.use(require('./src/plugins/chat'))
 app.route('*', require('./src/views/main'))
 
