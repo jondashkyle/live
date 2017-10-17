@@ -38,7 +38,7 @@ var custom = `
 `
 
 var typography = {
-  sans: '"Lars Mono", Times, Consolas, "Liberation Mono", Menlo, Courier, monospace'
+  sans: '"Lars Mono", Menlo, Consolas, "Liberation Mono", Menlo, Courier, monospace'
 }
 
 var colors = {
