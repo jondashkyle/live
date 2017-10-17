@@ -3,6 +3,19 @@ var fs = require('fs')
 var ress = fs.readFileSync('node_modules/ress/ress.css', 'utf8')
 
 var utils = [ ]
+
+
+var typography = {
+  sans: '"Lars Mono", Menlo, Consolas, "Liberation Mono", Menlo, Courier, monospace'
+}
+
+var colors = {
+  white: '#fff',
+  grey_15: '#eee',
+  grey_20: '#ccc',
+  black: '#000'
+}
+
 var custom = `
   html { font-size: 100% }
 
@@ -28,6 +41,22 @@ var custom = `
   .md h2:before { content: '## ' }
   .md h3:before { content: '### ' }
 
+  code,
+  pre {
+    background: #333;
+    border-radius: 3px;
+    font-family: ${typography.sans};
+    line-height: 1.5;
+  }
+
+  code {
+    padding: 0.25rem;
+  }
+
+  pre {
+    padding: 1rem;
+  }
+
   @font-face {
     font-family: 'Lars Mono';
     src: url('/assets/Lars-Mono.eot');
@@ -36,17 +65,6 @@ var custom = `
          url('/assets/Lars-Mono.woff') format('woff');
   }
 `
-
-var typography = {
-  sans: '"Lars Mono", Menlo, Consolas, "Liberation Mono", Menlo, Courier, monospace'
-}
-
-var colors = {
-  white: '#fff',
-  grey_15: '#eee',
-  grey_20: '#ccc',
-  black: '#000'
-}
 
 var borderWeights = [1]
 var borders = {}

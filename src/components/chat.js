@@ -1,4 +1,8 @@
+var markdown = require('markdown-it')
 var html = require('choo/html')
+var raw = require('bel/raw')
+
+var md = new markdown()
 
 module.exports = chat
 
@@ -30,7 +34,7 @@ function chat (state, emit) {
   function elMessage (data) {
     return html`
       <div class="p1 bb1-black lh1-5">
-        ${data.message}
+        ${raw(md.render(data.message))}
       </div>
     `
   }
@@ -43,7 +47,6 @@ function chat (state, emit) {
 
   function handleClick (event) {
     emit(state.events.CHAT_SEND, state.chat.user)
-    emit(state.events.CHAT_USER, { message: '' })
     event.preventDefault()
   }
 }
