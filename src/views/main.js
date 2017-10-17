@@ -7,9 +7,9 @@ module.exports = main
 
 function main(state, emit) {
   return html`
-    <body>
-      ${chat(state, emit)}
+    <body class="ff-sans">
       ${channel()}
+      ${chat(state, emit)}
     </body>
   `
 }

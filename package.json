@@ -4,9 +4,8 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "node server",
-    "dev": "budo src/index.js -- -t sheetify",
-    "build": "bankai start src/index.js",
+    "start": "budo index.js -- -t sheetify",
+    "build": "bankai build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],

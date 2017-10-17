@@ -6,7 +6,7 @@ module.exports = chat
 function chat (state, emitter) {
   var ws
   state.chat = {
-    address: 'ws://localhost:8081',
+    address: 'ws://plucky-basin.glitch.me',
     active: false,
     messages: [ ],
     user: {
@@ -30,7 +30,13 @@ function chat (state, emitter) {
     })
 
     ws.addEventListener('message', function (event) {
-      state.chat.messages.push(JSON.parse(event.data))
+      var data = JSON.parse(event.data)
+      if (data.messages) {
+        state.chat.messages = state.chat.messages.concat(data.messages.map(message => JSON.parse(message)))
+        // console.log(state.chat.messages)
+      } else {
+        state.chat.messages.push(data)
+      }
       emitter.emit(state.events.CHAT_MESSAGE)
       emitter.emit(state.events.RENDER)
     })
