@@ -6,6 +6,12 @@ var wrapper = require('./src/components/wrapper')
 var app = choo()
 css('./src/design.js')
 
+if (process.env.NODE_ENV === 'production') {
+  app.use(require('choo-service-worker')())
+} else {
+  app.use(require('choo-log')())
+}
+
 app.use(require('./src/plugins/app'))
 app.use(require('./src/plugins/chat'))
 
