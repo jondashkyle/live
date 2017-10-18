@@ -30,6 +30,11 @@ function chat (state, emitter) {
       state.chat.active = true
       emitter.emit(state.events.CHAT_READY)
       emitter.emit(state.events.RENDER)
+
+      setTimeout(function () {
+        var elMessages = document.querySelector('[data-messages]')
+        elMessages.scrollTo(0, elMessages.scrollHeight)
+      }, 100)
     })
 
     ws.addEventListener('error', function (event) {
@@ -43,6 +48,7 @@ function chat (state, emitter) {
       // scratch
       if (!state.chat.editing && data.scratch !== undefined) {
         state.chat.scratch = data.scratch
+          scrollMessages('[data-scratch]')
       }
 
       // messages
@@ -53,6 +59,7 @@ function chat (state, emitter) {
       // message
       if (data.message) {
         state.chat.messages.push(data)
+        scrollMessages('[data-messages]')
         if (data.message === state.chat.user.message) {
           emitter.emit(state.events.CHAT_USER, { message: '' })
         }
@@ -61,7 +68,6 @@ function chat (state, emitter) {
       emitter.emit(state.events.CHAT_MESSAGE)
       emitter.emit(state.events.RENDER)
     })
-
   })
 
   emitter.on(state.events.CHAT_SEND, function (data) {
@@ -88,4 +94,18 @@ function chat (state, emitter) {
   emitter.on(state.events.CHAT_MESSAGE, function (data) {
 
   })
+}
+
+function scrollMessages (selector) {
+  if (typeof document !== 'undefined') {
+    var elMessages = document.querySelector(selector)
+    if (!elMessages) return
+
+    if (elMessages.scrollHeight - elMessages.offsetHeight === elMessages.scrollTop) {
+      setTimeout(function () {
+        var elMessages = document.querySelector(selector)
+        elMessages.scrollTo(0, elMessages.scrollHeight)
+      }, 100)
+    }
+  }
 }

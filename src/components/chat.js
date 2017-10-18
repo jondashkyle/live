@@ -8,11 +8,11 @@ module.exports = chat
 
 function chat (state, emit) {
   return html`
-    <div class="x xx h100 xdc">
-      <div class="xx os">
+    <div class="x xx h100 xdc psr">
+      <div class="xx os" style="padding-bottom: 3rem" data-messages>
         ${state.chat.messages.map(elMessage)}
       </div>
-      <form>
+      <form class="psa b0 l0 r0 p0-5 pt0 c12">
         ${elInput()}
         <button class="dn" onclick=${handleClick}>send</button>
       </form>
@@ -26,7 +26,7 @@ function chat (state, emit) {
         value="${state.chat.user.message}"
         oninput=${handleInput}
         placeholder="message…"
-        class="w100 fs1 ff-sans m0 p1 bgc-grey_15"
+        class="w100 fs1 ff-sans m0 px1 py0-5 bgc-black fc-white br1-5 lh1-5"
       />
     `
   }

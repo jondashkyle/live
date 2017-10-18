@@ -10,7 +10,7 @@ if (process.env.NODE_ENV === 'production') {
   app.use(require('choo-service-worker')())
 } else {
   app.route('/scratch', wrapper(require('./src/views/scratch-editor')))
-  app.use(require('choo-log')())
+  // app.use(require('choo-log')())
 }
 
 app.use(require('./src/plugins/app'))
