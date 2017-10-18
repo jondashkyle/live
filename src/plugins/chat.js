@@ -6,7 +6,7 @@ module.exports = chat
 function chat (state, emitter) {
   var ws
   state.chat = {
-    address: 'ws://plucky-basin.glitch.me',
+    address: 'wss://plucky-basin.glitch.me',
     active: false,
     messages: [ ],
     scratch: '',
