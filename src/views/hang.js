@@ -1,3 +1,4 @@
+var externalLinks = require('markdown-it-external-links')
 var markdown = require('markdown-it')
 var html = require('choo/html')
 var raw = require('bel/raw')
@@ -6,6 +7,10 @@ var channel = require('../components/channel')
 var chat = require('../components/chat')
 
 var md = new markdown()
+
+md.use(externalLinks, {
+  externalTarget: ['_blank']
+})
 
 module.exports = view
 

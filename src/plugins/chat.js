@@ -32,6 +32,11 @@ function chat (state, emitter) {
       emitter.emit(state.events.RENDER)
     })
 
+    ws.addEventListener('error', function (event) {
+      alert('Problem with chat, sorry!')
+      console.warn(error)
+    })
+
     ws.addEventListener('message', function (event) {
       var data = JSON.parse(event.data)
 

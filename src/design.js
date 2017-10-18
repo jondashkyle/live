@@ -33,9 +33,8 @@ var custom = `
     margin-bottom: 1rem;
   }
 
-  .md ul {
-    margin-left: 1rem;
-  }
+  .md ul { margin-left: 1rem }
+  .md ul > li+li { margin-top: 1rem; margin-bottom: 1rem; }
 
   .md h1:before { content: '# ' }
   .md h2:before { content: '## ' }
@@ -47,6 +46,13 @@ var custom = `
     border-radius: 3px;
     font-family: ${typography.sans};
     line-height: 1.5;
+  }
+
+  .md .external-link:after {
+    content: '→';
+    display: inline-block;
+    transform: rotate(-45deg);
+    text-decoration: none;
   }
 
   code {
@@ -106,8 +112,8 @@ utils.push({
 
 utils.push({
   prop: 'border-radius',
-  unit: 'px',
-  vals: [0, 3, 6]
+  unit: 'rem',
+  vals: [0, 1, 1.5]
 })
 
 utils.push({
