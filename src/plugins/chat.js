@@ -8,6 +8,7 @@ function chat (state, emitter) {
   state.chat = {
     address: 'wss://plucky-basin.glitch.me',
     active: false,
+    live: false,
     messages: [ ],
     scratch: '',
     editing: false,
@@ -22,6 +23,7 @@ function chat (state, emitter) {
   state.events.CHAT_MESSAGE = 'chat:message'
   state.events.CHAT_USER = 'chat:user'
   state.events.CHAT_SCRATCH = 'chat:scratch'
+  state.events.CHAT_LIVE = 'chat:live'
 
   emitter.on(state.events.DOMCONTENTLOADED, function () {
     ws = new WebSocket(state.chat.address)
@@ -32,8 +34,10 @@ function chat (state, emitter) {
       emitter.emit(state.events.RENDER)
 
       setTimeout(function () {
-        var elMessages = document.querySelector('[data-messages]')
-        elMessages.scrollTo(0, elMessages.scrollHeight)
+        if (state.chat.live) {
+          var elMessages = document.querySelector('[data-messages]')
+          elMessages.scrollTo(0, elMessages.scrollHeight)
+        }
       }, 100)
     })
 
@@ -45,10 +49,15 @@ function chat (state, emitter) {
     ws.addEventListener('message', function (event) {
       var data = JSON.parse(event.data)
 
+      // active
+      if (data.live !== undefined) {
+        state.chat.live = data.live
+      }
+
       // scratch
       if (!state.chat.editing && data.scratch !== undefined) {
         state.chat.scratch = data.scratch
-          scrollMessages('[data-scratch]')
+        if (state.chat.live) scrollMessages('[data-scratch]')
       }
 
       // messages
@@ -59,7 +68,7 @@ function chat (state, emitter) {
       // message
       if (data.message) {
         state.chat.messages.push(data)
-        scrollMessages('[data-messages]')
+        if (state.chat.live) scrollMessages('[data-messages]')
         if (data.message === state.chat.user.message) {
           emitter.emit(state.events.CHAT_USER, { message: '' })
         }
@@ -81,6 +90,14 @@ function chat (state, emitter) {
     if (data && data.scratch) {
       state.chat.editing = true
       state.chat.scratch = data.scratch
+      ws.send(JSON.stringify(data))
+    }
+  })
+
+  emitter.on(state.events.CHAT_LIVE, function (data) {
+    console.log(state.chat.live)
+    if (data && data.live !== undefined) {
+      state.chat.live = data.live
       ws.send(JSON.stringify(data))
     }
   })

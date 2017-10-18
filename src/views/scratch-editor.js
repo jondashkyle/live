@@ -1,13 +1,29 @@
 var html = require('choo/html')
+var css = require('sheetify')
 var raw = require('bel/raw')
 
 var chat = require('../components/chat')
+
+var style = css`
+  :host {
+    cursor: pointer;
+    height: 2rem;
+    width: 2rem;
+    border-radius: 1rem;
+  }
+`
 
 module.exports = scratch
 
 function scratch (state, emit) {
   return html`
     <div class="x xdc vh100">
+      <div class="psf t0 r0 b0 p1 pen">
+        <div
+          class="pea ${style} ${state.chat.live ? 'bgc-green' : 'bgc-red'}"
+          onclick=${handleLiveClick}
+        ></div>
+      </div>
       <div class="x xx c12">
         ${editor()}
       </div>
@@ -30,6 +46,12 @@ function scratch (state, emit) {
   function handleInput (event) {
     emit(state.events.CHAT_SCRATCH, {
       scratch: event.target.value
+    })
+  }
+
+  function handleLiveClick (event) {
+    emit(state.events.CHAT_LIVE, {
+      live: !state.chat.live
     })
   }
 }

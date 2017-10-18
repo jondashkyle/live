@@ -13,6 +13,8 @@ var colors = {
   white: '#fff',
   grey_15: '#eee',
   grey_20: '#ccc',
+  red: '#f33',
+  green: '#0FCE83',
   black: '#000'
 }
 
