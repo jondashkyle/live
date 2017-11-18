@@ -7,8 +7,8 @@ function chat (state, emitter) {
   var ws
   state.chat = {
     address: 'wss://plucky-basin.glitch.me',
-    active: false,
-    live: false,
+    active: true,
+    live: true,
     messages: [ ],
     scratch: '',
     editing: false,

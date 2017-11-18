@@ -26,14 +26,14 @@ function chat (state, emit) {
         value="${state.chat.user.message}"
         oninput=${handleInput}
         placeholder="message…"
-        class="w100 fs1 ff-sans m0 px1 py0-5 bgc-black fc-white br1-5 lh1-5"
+        class="w100 fs1 ff-sans m0 px1 py0-5 bgc-white fc-black br1-5 lh1-5"
       />
     `
   }
 
   function elMessage (data) {
     return html`
-      <div class="px1 py0-5 m0-5 bgc-grey_15 br1-5 lh1-5">
+      <div class="px1 py0-5 m0-5 bgc-grey_75 br1-5 lh1-5">
         ${raw(md.render(data.message))}
       </div>
     `

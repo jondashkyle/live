@@ -13,6 +13,7 @@ var colors = {
   white: '#fff',
   grey_15: '#eee',
   grey_20: '#ccc',
+  grey_75: '#333',
   red: '#f33',
   green: '#0FCE83',
   black: '#000'
@@ -126,7 +127,9 @@ utils.push({
 
 var gr8css = gr8({
   utils: utils,
-  spacing: [0, 0.5, 1, 1.5, 2]
+  spacing: [0, 0.5, 1, 1.5, 2],
+  responsive: true,
+  breakpointSelector: 'class'
 })
 
 module.exports = ress + gr8css + custom

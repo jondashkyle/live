@@ -1,13 +1,13 @@
 var html = require('choo/html')
 
 var intermission = require('./break')
-var hang = require('./hang')
+var walk = require('./walk')
 
 module.exports = main
 
 function main(state, emit) {
  if (state.chat.live) {
-    return hang(state, emit)
+    return walk(state, emit)
   } else {
     return intermission(state, emit)
   }
