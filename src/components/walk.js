@@ -47,6 +47,7 @@ module.exports = class Walk extends Nanocomponent {
 
   refresh () {
     var self = this
+    window.scrollTo(0, window.scrollY + 16)
     xhr(this.state.api, function (err, resp) {
       if (err) throw err
       var data = JSON.parse(resp.body, { }, 2)
@@ -64,11 +65,13 @@ module.exports = class Walk extends Nanocomponent {
 
   createElement (props) {
     var self = this
+    var timeNow = new Date().getTime() / 1000
     var timeStart = new Date(this.state.timeline.start).getTime() / 1000
     var timeEnd = new Date(this.state.timeline.end).getTime() / 1000
     var startHour = new Date(this.state.timeline.start).getHours()
     var hours = (timeEnd - timeStart) / (1000 * 60 * 60) * 1000
     var height = hours * this.state.timeline.heightHour
+    var positionNow = ((timeNow - timeStart) / (timeEnd - timeStart) * hours) * self.state.timeline.heightHour
 
     return html`
       <div class="psr w100 z1" style="height: ${height}px">
@@ -91,6 +94,7 @@ module.exports = class Walk extends Nanocomponent {
             `
           })}
         </div>
+        <div class="psa line l0 r0 pen z2" style="background: #f33; top: ${positionNow}px"></div>
         ${this.state.contents.map(function (entry) {
           if (!entry.image) return
           var timeEntry = new Date(entry.created_at).getTime() / 1000
