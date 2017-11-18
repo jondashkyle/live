@@ -7,6 +7,15 @@ var style = css`
   .line { height: 1px; background: #000; }
   .photo { width: 33.3% }
   .photo:hover { z-index: 2; width: 100%; left: 0!important; }
+  .blink {
+    animation: blink 500ms steps(1, end) infinite;
+  }
+
+  @keyframes blink {
+    0% { opacity: 0; }
+    50% { opacity: 1; }
+  }
+
 `
 
 module.exports = class Walk extends Nanocomponent {
@@ -63,7 +72,10 @@ module.exports = class Walk extends Nanocomponent {
 
     return html`
       <div class="psr w100 z1" style="height: ${height}px">
-        <div class="c2 usn psr z2">
+        <div class="psf b0 l0 pen p1 ff-mono ttu blink">
+          LIVE
+        </div>
+        <div class="c2 pen psr z2">
           ${Array(hours).fill(null).map(function (hour, i) {
             return html`
               <div
