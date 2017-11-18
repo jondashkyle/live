@@ -1,0 +1,786 @@
+{
+  "messages": [
+    {
+      "name": "nice",
+      "message": "hello world",
+      "timestamp": "2017-10-17T21:55:17.987Z"
+    },
+    {
+      "name": "nice",
+      "message": "hello kyle",
+      "timestamp": "2017-10-18T17:57:37.742Z"
+    },
+    {
+      "name": "nice",
+      "message": "hello",
+      "timestamp": "2017-10-18T18:00:47.889Z"
+    },
+    {
+      "name": "nice",
+      "message": "oi oi",
+      "timestamp": "2017-10-18T18:05:51.844Z"
+    },
+    {
+      "name": "nice",
+      "message": "we almost here",
+      "timestamp": "2017-10-18T18:06:18.379Z"
+    },
+    {
+      "name": "nice",
+      "message": ":D",
+      "timestamp": "2017-10-18T18:06:29.171Z"
+    },
+    {
+      "name": "nice",
+      "message": "yow",
+      "timestamp": "2017-10-18T18:07:10.802Z"
+    },
+    {
+      "name": "nice",
+      "message": "ayyy",
+      "timestamp": "2017-10-18T18:07:15.008Z"
+    },
+    {
+      "name": "nice",
+      "message": "yea",
+      "timestamp": "2017-10-18T18:07:24.683Z"
+    },
+    {
+      "name": "nice",
+      "message": "im jimmy excited for this",
+      "timestamp": "2017-10-18T18:07:27.846Z"
+    },
+    {
+      "name": "nice",
+      "message": "audios a lil distorted",
+      "timestamp": "2017-10-18T18:07:37.056Z"
+    },
+    {
+      "name": "nice",
+      "message": "was hoping this page was beaker-forkable... not yet",
+      "timestamp": "2017-10-18T18:07:40.839Z"
+    },
+    {
+      "name": "nice",
+      "message": "decent",
+      "timestamp": "2017-10-18T18:07:52.825Z"
+    },
+    {
+      "name": "nice",
+      "message": "still watching this xbox commercial lol",
+      "timestamp": "2017-10-18T18:07:56.832Z"
+    },
+    {
+      "name": "nice",
+      "message": "Yes",
+      "timestamp": "2017-10-18T18:08:03.518Z"
+    },
+    {
+      "name": "nice",
+      "message": "musics cool",
+      "timestamp": "2017-10-18T18:08:06.552Z"
+    },
+    {
+      "name": "nice",
+      "message": "whats gooood",
+      "timestamp": "2017-10-18T18:08:09.081Z"
+    },
+    {
+      "name": "nice",
+      "message": "bit crunchy",
+      "timestamp": "2017-10-18T18:08:12.920Z"
+    },
+    {
+      "name": "nice",
+      "message": "bit crackly",
+      "timestamp": "2017-10-18T18:08:13.699Z"
+    },
+    {
+      "name": "nice",
+      "message": "cant hear that",
+      "timestamp": "2017-10-18T18:08:27.959Z"
+    },
+    {
+      "name": "nice",
+      "message": "your audio keeps distorting though",
+      "timestamp": "2017-10-18T18:08:29.360Z"
+    },
+    {
+      "name": "nice",
+      "message": "i cant here any",
+      "timestamp": "2017-10-18T18:08:29.978Z"
+    },
+    {
+      "name": "nice",
+      "message": "^_^",
+      "timestamp": "2017-10-18T18:08:39.057Z"
+    },
+    {
+      "name": "nice",
+      "message": "yeah its nice",
+      "timestamp": "2017-10-18T18:08:43.642Z"
+    },
+    {
+      "name": "nice",
+      "message": "thats p good",
+      "timestamp": "2017-10-18T18:08:46.424Z"
+    },
+    {
+      "name": "nice",
+      "message": "oh sounds good now",
+      "timestamp": "2017-10-18T18:08:48.793Z"
+    },
+    {
+      "name": "nice",
+      "message": "chill",
+      "timestamp": "2017-10-18T18:08:49.893Z"
+    },
+    {
+      "name": "nice",
+      "message": "you're still a bit distorted",
+      "timestamp": "2017-10-18T18:09:00.447Z"
+    },
+    {
+      "name": "nice",
+      "message": "what's up from Portland",
+      "timestamp": "2017-10-18T18:09:07.896Z"
+    },
+    {
+      "name": "nice",
+      "message": "hot",
+      "timestamp": "2017-10-18T18:09:13.380Z"
+    },
+    {
+      "name": "nice",
+      "message": "never",
+      "timestamp": "2017-10-18T18:09:55.685Z"
+    },
+    {
+      "name": "nice",
+      "message": "watching from @instrument",
+      "timestamp": "2017-10-18T18:09:58.141Z"
+    },
+    {
+      "name": "nice",
+      "message": "sounds fine m8 just a bit crunchy",
+      "timestamp": "2017-10-18T18:10:09.341Z"
+    },
+    {
+      "name": "nice",
+      "message": "lol",
+      "timestamp": "2017-10-18T18:10:24.306Z"
+    },
+    {
+      "name": "nice",
+      "message": "hello from london",
+      "timestamp": "2017-10-18T18:10:32.835Z"
+    },
+    {
+      "name": "nice",
+      "message": "not possible",
+      "timestamp": "2017-10-18T18:10:35.207Z"
+    },
+    {
+      "name": "nice",
+      "message": "whats ur sublime theme/colours",
+      "timestamp": "2017-10-18T18:10:53.407Z"
+    },
+    {
+      "name": "nice",
+      "message": "you could turn the mic like way down tbh",
+      "timestamp": "2017-10-18T18:11:17.005Z"
+    },
+    {
+      "name": "nice",
+      "message": "or just low talk hehe",
+      "timestamp": "2017-10-18T18:11:26.711Z"
+    },
+    {
+      "name": "nice",
+      "message": "omg whisper",
+      "timestamp": "2017-10-18T18:11:29.612Z"
+    },
+    {
+      "name": "nice",
+      "message": "there we go",
+      "timestamp": "2017-10-18T18:11:45.985Z"
+    },
+    {
+      "name": "nice",
+      "message": "way better yea",
+      "timestamp": "2017-10-18T18:11:49.762Z"
+    },
+    {
+      "name": "nice",
+      "message": "thats good ",
+      "timestamp": "2017-10-18T18:11:48.791Z"
+    },
+    {
+      "name": "nice",
+      "message": "yes!!",
+      "timestamp": "2017-10-18T18:11:50.820Z"
+    },
+    {
+      "name": "nice",
+      "message": "bettter!",
+      "timestamp": "2017-10-18T18:11:55.430Z"
+    },
+    {
+      "name": "nice",
+      "message": "maybe music just a tad lower aswel",
+      "timestamp": "2017-10-18T18:11:58.583Z"
+    },
+    {
+      "name": "nice",
+      "message": "woo!",
+      "timestamp": "2017-10-18T18:12:08.768Z"
+    },
+    {
+      "name": "nice",
+      "message": "perf",
+      "timestamp": "2017-10-18T18:12:19.863Z"
+    },
+    {
+      "name": "nice",
+      "message": "much better",
+      "timestamp": "2017-10-18T18:12:44.853Z"
+    },
+    {
+      "name": "nice",
+      "message": "(Y)",
+      "timestamp": "2017-10-18T18:12:47.059Z"
+    },
+    {
+      "name": "nice",
+      "message": "yeah its hot",
+      "timestamp": "2017-10-18T18:15:31.670Z"
+    },
+    {
+      "name": "nice",
+      "message": "it's lit",
+      "timestamp": "2017-10-18T18:15:42.044Z"
+    },
+    {
+      "name": "nice",
+      "message": "this is awesome.",
+      "timestamp": "2017-10-18T18:18:36.797Z"
+    },
+    {
+      "name": "nice",
+      "message": "nice interface btw.",
+      "timestamp": "2017-10-18T18:18:44.706Z"
+    },
+    {
+      "name": "nice",
+      "message": "^^",
+      "timestamp": "2017-10-18T18:19:08.574Z"
+    },
+    {
+      "name": "nice",
+      "message": "hi",
+      "timestamp": "2017-10-18T18:20:06.025Z"
+    },
+    {
+      "name": "nice",
+      "message": "i guess it's kinda like acf for wordpress",
+      "timestamp": "2017-10-18T18:20:08.278Z"
+    },
+    {
+      "name": "nice",
+      "message": "how do u reference images/files in the text fields in enoki?",
+      "timestamp": "2017-10-18T18:22:45.549Z"
+    },
+    {
+      "name": "nice",
+      "message": "can you drop-in custom textfield?",
+      "timestamp": "2017-10-18T18:22:52.803Z"
+    },
+    {
+      "name": "nice",
+      "message": "muted",
+      "timestamp": "2017-10-18T18:23:10.050Z"
+    },
+    {
+      "name": "nice",
+      "message": "ur muted ",
+      "timestamp": "2017-10-18T18:23:14.314Z"
+    },
+    {
+      "name": "nice",
+      "message": "say i wanna put it a real-time-text editor and working with someone else in real time",
+      "timestamp": "2017-10-18T18:23:24.761Z"
+    },
+    {
+      "name": "nice",
+      "message": "u can turn off the music if u want it's like almost silent",
+      "timestamp": "2017-10-18T18:27:05.076Z"
+    },
+    {
+      "name": "nice",
+      "message": "yea making your own custom fields seems like would be real fun",
+      "timestamp": "2017-10-18T18:27:48.593Z"
+    },
+    {
+      "name": "nice",
+      "message": "I can hear you pretty well",
+      "timestamp": "2017-10-18T18:28:40.390Z"
+    },
+    {
+      "name": "nice",
+      "message": "the construction isnt too bad",
+      "timestamp": "2017-10-18T18:28:53.160Z"
+    },
+    {
+      "name": "nice",
+      "message": "it's not overpowering your voice",
+      "timestamp": "2017-10-18T18:28:55.100Z"
+    },
+    {
+      "name": "nice",
+      "message": "how do u handle code splitting w enoki?",
+      "timestamp": "2017-10-18T18:28:56.819Z"
+    },
+    {
+      "name": "nice",
+      "message": "almost dont quite need wysiwyg since you could have multiple blocks of custom types of contents/fields/etc",
+      "timestamp": "2017-10-18T18:28:57.141Z"
+    },
+    {
+      "name": "nice",
+      "message": "this last thing is already a big difference from kirby",
+      "timestamp": "2017-10-18T18:29:16.310Z"
+    },
+    {
+      "name": "nice",
+      "message": "yea definitely, you want them to control the data, but you want to control the styling/presentation",
+      "timestamp": "2017-10-18T18:29:41.401Z"
+    },
+    {
+      "name": "nice",
+      "message": "is there any way to create sections for markdown files? eg. Text, Image, then a secondary text field: almost like ACF",
+      "timestamp": "2017-10-18T18:29:51.329Z"
+    },
+    {
+      "name": "nice",
+      "message": "would u consider going full wysiwyg but in the form of like dropbox papers markdown editor, or mediums editor?",
+      "timestamp": "2017-10-18T18:30:13.475Z"
+    },
+    {
+      "name": "nice",
+      "message": "that's kind of what this is already",
+      "timestamp": "2017-10-18T18:30:27.355Z"
+    },
+    {
+      "name": "nice",
+      "message": "so really possible to turn it into a wiki (possibly)",
+      "timestamp": "2017-10-18T18:30:47.469Z"
+    },
+    {
+      "name": "nice",
+      "message": "you could have a suuuuuper custom wysiwyg ",
+      "timestamp": "2017-10-18T18:30:56.606Z"
+    },
+    {
+      "name": "nice",
+      "message": "do u think that custom editors feature could work with regular enoki?",
+      "timestamp": "2017-10-18T18:32:28.306Z"
+    },
+    {
+      "name": "nice",
+      "message": "right - like how Linux has opinionated distros (Mint, Debian), Beaker is an opinionated Chromium distro",
+      "timestamp": "2017-10-18T18:34:39.197Z"
+    },
+    {
+      "name": "nice",
+      "message": "oo this is harrd",
+      "timestamp": "2017-10-18T18:35:06.149Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is paul) Goal is to make a full API stack for p2p and thin (easy to replace) services. We can probably bundle it into a stack that imports into any electron app, which would be good for other browsers and for the Enoki desktop",
+      "timestamp": "2017-10-18T18:38:02.283Z"
+    },
+    {
+      "name": "nice",
+      "message": "so your description was pretty much on point",
+      "timestamp": "2017-10-18T18:38:21.510Z"
+    },
+    {
+      "name": "nice",
+      "message": "can you show us the files behind the site?",
+      "timestamp": "2017-10-18T18:39:24.477Z"
+    },
+    {
+      "name": "nice",
+      "message": "that's how i publish updates on my website too. it's the best flow i've ever used for publishing updates",
+      "timestamp": "2017-10-18T18:39:54.512Z"
+    },
+    {
+      "name": "nice",
+      "message": "hi j-k!",
+      "timestamp": "2017-10-18T18:40:09.956Z"
+    },
+    {
+      "name": "nice",
+      "message": "wow gtfo ",
+      "timestamp": "2017-10-18T18:42:59.792Z"
+    },
+    {
+      "name": "nice",
+      "message": "whaaaat where's the build process?",
+      "timestamp": "2017-10-18T18:43:06.780Z"
+    },
+    {
+      "name": "nice",
+      "message": "(Hi! Just getting in, will be silently following. Thanks for hosting, super happy you're doing this 👌)",
+      "timestamp": "2017-10-18T18:43:07.568Z"
+    },
+    {
+      "name": "nice",
+      "message": "(@thmsbfft here btw)",
+      "timestamp": "2017-10-18T18:43:21.352Z"
+    },
+    {
+      "name": "nice",
+      "message": "could you explain how you get .html pages in beaker w/o a build?",
+      "timestamp": "2017-10-18T18:46:02.202Z"
+    },
+    {
+      "name": "nice",
+      "message": "^ yeah, i have the same question",
+      "timestamp": "2017-10-18T18:46:18.370Z"
+    },
+    {
+      "name": "nice",
+      "message": "this thing on?",
+      "timestamp": "2017-10-18T18:47:50.166Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is paul) are you using web_root right now or the fallback_page?",
+      "timestamp": "2017-10-18T18:47:55.136Z"
+    },
+    {
+      "name": "nice",
+      "message": "chat isnt working in safari for some reason",
+      "timestamp": "2017-10-18T18:48:18.492Z"
+    },
+    {
+      "name": "nice",
+      "message": "right so the entire frontend is dynamically generated",
+      "timestamp": "2017-10-18T18:48:37.632Z"
+    },
+    {
+      "name": "nice",
+      "message": "yeah could you step through the code that builds the page?",
+      "timestamp": "2017-10-18T18:49:18.056Z"
+    },
+    {
+      "name": "nice",
+      "message": "is the video going to be archived?",
+      "timestamp": "2017-10-18T18:50:37.608Z"
+    },
+    {
+      "name": "nice",
+      "message": "could also wrap with dat fs api to get content from remote dats =)",
+      "timestamp": "2017-10-18T18:50:52.027Z"
+    },
+    {
+      "name": "nice",
+      "message": "EVERYTHING IS A FILE",
+      "timestamp": "2017-10-18T18:51:19.708Z"
+    },
+    {
+      "name": "nice",
+      "message": "im pretty sure twitch archives",
+      "timestamp": "2017-10-18T18:53:02.934Z"
+    },
+    {
+      "name": "nice",
+      "message": "have you seen https://github.com/jayrbolton/dat-pki ?",
+      "timestamp": "2017-10-18T18:53:05.703Z"
+    },
+    {
+      "name": "nice",
+      "message": "lovveee the idea behind gr8, so quick to do f(css) stuff",
+      "timestamp": "2017-10-18T18:56:18.066Z"
+    },
+    {
+      "name": "nice",
+      "message": "i wish someone could explain the idea behind fn(css).  i jus dont get it",
+      "timestamp": "2017-10-18T18:57:03.924Z"
+    },
+    {
+      "name": "nice",
+      "message": "patricia :)",
+      "timestamp": "2017-10-18T19:03:17.568Z"
+    },
+    {
+      "name": "nice",
+      "message": "don't feel need to answer now, but have you had any thoughts about drafts & where/how those live?",
+      "timestamp": "2017-10-18T19:03:59.491Z"
+    },
+    {
+      "name": "nice",
+      "message": "like drafting a page or post that are not public yet, able to collab and version",
+      "timestamp": "2017-10-18T19:04:53.231Z"
+    },
+    {
+      "name": "nice",
+      "message": "how come YAML?",
+      "timestamp": "2017-10-18T19:05:11.562Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is paul) about private files, there's an idea that's being tossed around, where Dats can have a private \"layer.\" It'd be like having 2 folders, one laid on top of the other, and the top folder would be private",
+      "timestamp": "2017-10-18T19:05:51.610Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is paul) but it's a little complex so we'll see",
+      "timestamp": "2017-10-18T19:06:14.985Z"
+    },
+    {
+      "name": "nice",
+      "message": "interesting. collab seems tough right? since once person is creator of the dat",
+      "timestamp": "2017-10-18T19:06:21.432Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is paul) about collab, dat will support multiple authors soon",
+      "timestamp": "2017-10-18T19:06:43.137Z"
+    },
+    {
+      "name": "nice",
+      "message": "i cant wait for multiwriter hyperdrive/dat",
+      "timestamp": "2017-10-18T19:07:12.870Z"
+    },
+    {
+      "name": "nice",
+      "message": "mafintoshian hypermodularism",
+      "timestamp": "2017-10-18T19:07:48.302Z"
+    },
+    {
+      "name": "nice",
+      "message": "mafintastic",
+      "timestamp": "2017-10-18T19:08:03.597Z"
+    },
+    {
+      "name": "nice",
+      "message": "damn awesome. other thing im trying to wrap my head around/excites me would be ability to share custom post types or different styled panel.",
+      "timestamp": "2017-10-18T19:08:17.457Z"
+    },
+    {
+      "name": "nice",
+      "message": "ogdonian dattopia ",
+      "timestamp": "2017-10-18T19:08:37.416Z"
+    },
+    {
+      "name": "nice",
+      "message": "sorry if you already explained this — when you `dat sync` are you doing it from your project root, or from some kind of dist/ directory?",
+      "timestamp": "2017-10-18T19:09:18.925Z"
+    },
+    {
+      "name": "nice",
+      "message": "source should be included if you have multiple editors",
+      "timestamp": "2017-10-18T19:10:37.128Z"
+    },
+    {
+      "name": "nice",
+      "message": "isn't that partially the point of source maps? why not just publish source maps along with the code?",
+      "timestamp": "2017-10-18T19:11:31.954Z"
+    },
+    {
+      "name": "nice",
+      "message": "source maps are for debugging",
+      "timestamp": "2017-10-18T19:11:46.940Z"
+    },
+    {
+      "name": "nice",
+      "message": "why not publish all 3?",
+      "timestamp": "2017-10-18T19:12:02.306Z"
+    },
+    {
+      "name": "nice",
+      "message": "less magic",
+      "timestamp": "2017-10-18T19:12:59.201Z"
+    },
+    {
+      "name": "nice",
+      "message": "if your compiler is legible and works reproducibly, source maps just add complexity",
+      "timestamp": "2017-10-18T19:15:03.141Z"
+    },
+    {
+      "name": "nice",
+      "message": "I've been thinking about how to do vanilla-browser dat/beaker site gateways. Rather than an AWS service that serves http like hashbase, ship a webrtc dat client and a static website generator client, that way the content can live behind conventional zero-conf'd networking gear and the static client lives on cheap s3/gh-pages",
+      "timestamp": "2017-10-18T19:15:14.328Z"
+    },
+    {
+      "name": "nice",
+      "message": "thats a very good articulation of node flavored ergonomics",
+      "timestamp": "2017-10-18T19:15:37.216Z"
+    },
+    {
+      "name": "nice",
+      "message": "can you write this down?",
+      "timestamp": "2017-10-18T19:17:47.505Z"
+    },
+    {
+      "name": "nice",
+      "message": "fungible ",
+      "timestamp": "2017-10-18T19:18:35.874Z"
+    },
+    {
+      "name": "nice",
+      "message": "how do you feel about beaker being tied to webkit/google?",
+      "timestamp": "2017-10-18T19:19:48.105Z"
+    },
+    {
+      "name": "nice",
+      "message": "v8 made some serious commitments to node recently, I wonder if webkit will do the same for electron",
+      "timestamp": "2017-10-18T19:20:30.868Z"
+    },
+    {
+      "name": "nice",
+      "message": "video is covering your editor",
+      "timestamp": "2017-10-18T19:25:05.732Z"
+    },
+    {
+      "name": "nice",
+      "message": "Anyone able to access the demo dat site? I'm getting timed out dat://1acd82bec98be42044f8eba740fad709c9e12cbdc76c94d3ea56cbf41289efa3/",
+      "timestamp": "2017-10-18T19:25:25.166Z"
+    },
+    {
+      "name": "nice",
+      "message": "what's this sublime theme?",
+      "timestamp": "2017-10-18T19:26:04.445Z"
+    },
+    {
+      "name": "nice",
+      "message": "yep",
+      "timestamp": "2017-10-18T19:26:08.791Z"
+    },
+    {
+      "name": "nice",
+      "message": "working for me",
+      "timestamp": "2017-10-18T19:26:37.661Z"
+    },
+    {
+      "name": "nice",
+      "message": "which tool you just said?",
+      "timestamp": "2017-10-18T19:28:20.809Z"
+    },
+    {
+      "name": "nice",
+      "message": "ty",
+      "timestamp": "2017-10-18T19:29:07.463Z"
+    },
+    {
+      "name": "nice",
+      "message": "the dat uri works for me",
+      "timestamp": "2017-10-18T19:32:21.669Z"
+    },
+    {
+      "name": "nice",
+      "message": "is there an .enokiignore file?",
+      "timestamp": "2017-10-18T19:36:34.967Z"
+    },
+    {
+      "name": "nice",
+      "message": "chill vibes j-k is that the construction or part of the music",
+      "timestamp": "2017-10-18T19:36:51.063Z"
+    },
+    {
+      "name": "nice",
+      "message": "@thmsbfft oryoki is what i've been needing for a long time! beautiful",
+      "timestamp": "2017-10-18T19:39:56.730Z"
+    },
+    {
+      "name": "nice",
+      "message": "love the float feature",
+      "timestamp": "2017-10-18T19:40:21.324Z"
+    },
+    {
+      "name": "nice",
+      "message": "stepped out for a sec. did you mention how layout build params will be stored if that's configured within the UI?",
+      "timestamp": "2017-10-18T19:42:54.651Z"
+    },
+    {
+      "name": "nice",
+      "message": "(this is sam) we had chatted about doing some layout post-processing for different page \"views\"",
+      "timestamp": "2017-10-18T19:44:07.107Z"
+    },
+    {
+      "name": "nice",
+      "message": "not sure which direction you ended up going",
+      "timestamp": "2017-10-18T19:44:21.771Z"
+    },
+    {
+      "name": "nice",
+      "message": "maybe too early to say",
+      "timestamp": "2017-10-18T19:44:39.788Z"
+    },
+    {
+      "name": "nice",
+      "message": "not vague, answers my Q",
+      "timestamp": "2017-10-18T19:45:51.176Z"
+    },
+    {
+      "name": "nice",
+      "message": "@thmsbfft oryoki is amazing, would you consider adding splitview of some sorts?",
+      "timestamp": "2017-10-18T19:51:03.980Z"
+    },
+    {
+      "name": "nice",
+      "message": "is it safe to get started using it?",
+      "timestamp": "2017-10-18T19:51:26.452Z"
+    },
+    {
+      "name": "nice",
+      "message": "would you be able to publish the changes to the dat site?",
+      "timestamp": "2017-10-18T19:52:04.469Z"
+    },
+    {
+      "name": "nice",
+      "message": "when's the new build out?",
+      "timestamp": "2017-10-18T19:52:24.209Z"
+    },
+    {
+      "name": "nice",
+      "message": "what do you do for your day job?",
+      "timestamp": "2017-10-18T19:53:26.775Z"
+    },
+    {
+      "name": "nice",
+      "message": "how do you imagine the publishing story going for http rather than dat?",
+      "timestamp": "2017-10-18T19:54:27.125Z"
+    },
+    {
+      "name": "nice",
+      "message": "can'",
+      "timestamp": "2017-10-18T19:54:51.792Z"
+    },
+    {
+      "name": "nice",
+      "message": "can't be dat only to begin with",
+      "timestamp": "2017-10-18T19:54:58.278Z"
+    },
+    {
+      "name": "nice",
+      "message": "it was great",
+      "timestamp": "2017-10-18T19:57:53.868Z"
+    },
+    {
+      "name": "nice",
+      "message": "thanks",
+      "timestamp": "2017-10-18T19:58:03.516Z"
+    },
+    {
+      "name": "nice",
+      "message": "please do more whenever you have the time",
+      "timestamp": "2017-10-18T19:58:44.496Z"
+    }
+  ],
+  "live": false,
+  "scratch": "# hey there\n\n- i’m live-coding a version of [enoki](http://enoki.site) which runs in [beaker browser](http://beakerbrowser.com]. enoki is an ultralight cms and beaker is a p2p browser.\n\n-  i’ll be adding blocks related to what’s being discussed on the [hangout arena channel](https://www.are.na/jon-kyle-mohr/hang-1).\n\n- my connection is a little spotty—will be back in a few minutes if it drops. they’re also doing construction upstairs so you might hear that.\n\n# follow along\n\n- visit this dat url: dat://1acd82bec98be42044f8eba740fad709c9e12cbdc76c94d3ea56cbf41289efa3/\n- hit fork\n\n# examples\n- https://harpjs.com/"
+}
