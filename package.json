@@ -23,8 +23,5 @@
     "sheetify": "^6.2.0",
     "ws": "^3.2.0",
     "xtend": "^4.0.1"
-  },
-  "devDependencies": {
-    "bankai": "^9.0.0-rc7"
   }
 }
