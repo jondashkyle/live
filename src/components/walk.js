@@ -48,7 +48,7 @@ module.exports = class Walk extends Nanocomponent {
   refresh () {
     var self = this
     window.scrollTo(0, window.scrollY + 16)
-    xhr(this.state.api, function (err, resp) {
+    xhr(this.state.api + '?' + new Date().getTime() / 1000, function (err, resp) {
       if (err) throw err
       var data = JSON.parse(resp.body, { }, 2)
       self.state.contents = data.contents.map(function (entry) {
