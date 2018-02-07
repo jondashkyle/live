@@ -13,8 +13,14 @@ function view (state, emit) {
   return html`
     <div class="vhmn100 c12 x xjc xac lh1-5">
       <div class="${style}">
-        02/07/2018 @ 11AM PST
+        ${getNote()}
       </div>
     </div>
   `
+
+  function getNote () {
+    return state.chat.messages.length > 0
+      ? state.chat.messages[state.chat.messages.length - 1].message
+      : 'loading'
+  }
 }

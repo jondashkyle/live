@@ -9,6 +9,7 @@ function chat (state, emitter) {
     address: 'wss://plucky-basin.glitch.me',
     active: false,
     live: false,
+    note: 'loading',
     messages: [ ],
     scratch: '',
     editing: false,
@@ -52,6 +53,10 @@ function chat (state, emitter) {
       // active
       if (data.live !== undefined) {
         state.chat.live = data.live
+      }
+
+      if (data.note) {
+        state.chat.note = data.note
       }
 
       // scratch
