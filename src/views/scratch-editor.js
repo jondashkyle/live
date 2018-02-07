@@ -24,7 +24,7 @@ function scratch (state, emit) {
           onclick=${handleLiveClick}
         ></div>
       </div>
-      <div class="x xx c12">
+      <div class="x xx c12" style="min-height: 50vh">
         ${editor()}
       </div>
       <div class="x xx c12">

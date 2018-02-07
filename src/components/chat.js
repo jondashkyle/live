@@ -12,9 +12,8 @@ function chat (state, emit) {
       <div class="xx os" style="padding-bottom: 3rem" data-messages>
         ${state.chat.messages.map(elMessage)}
       </div>
-      <form class="psa b0 l0 r0 p0-5 pt0 c12">
+      <form class="psa b0 l0 r0 p0-5 pt0 c12" onsubmit=${handleSubmit}>
         ${elInput()}
-        <button class="dn" onclick=${handleClick}>send</button>
       </form>
     </div>
   `
@@ -26,14 +25,14 @@ function chat (state, emit) {
         value="${state.chat.user.message}"
         oninput=${handleInput}
         placeholder="message…"
-        class="w100 fs1 ff-sans m0 px1 py0-5 bgc-white fc-black br1-5 lh1-5"
+        class="w100 fs1 ff-sans m0 px1 py0-5 bgc-black fc-white br1-5 lh1-5"
       />
     `
   }
 
   function elMessage (data) {
     return html`
-      <div class="px1 py0-5 m0-5 bgc-grey_75 br1-5 lh1-5">
+      <div class="px1 py0-5 m0-5 bgc-grey_15 br1-5 lh1-5">
         ${raw(md.render(data.message))}
       </div>
     `
@@ -45,7 +44,7 @@ function chat (state, emit) {
     })
   }
 
-  function handleClick (event) {
+  function handleSubmit (event) {
     emit(state.events.CHAT_SEND, state.chat.user)
     event.preventDefault()
   }
