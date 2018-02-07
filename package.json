@@ -27,6 +27,6 @@
     "xtend": "^4.0.1"
   },
   "devDependencies": {
-    "bankai": "^9.0.0-rc12"
+    "bankai": "^9.4.1"
   }
 }
