@@ -47,7 +47,7 @@ function loading () {
 function scratch (props) {
   props = props || { }
   return html`
-    <div class="p1 os xx bgc-black fc-white md lh1-5" data-scratch>
+    <div class="p1 os xx bgc-black fc-white md lh1-5 scratch" data-scratch>
       ${raw(md.render(props.text))}
     </div>
   `

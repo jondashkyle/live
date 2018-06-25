@@ -32,7 +32,7 @@ function chat (state, emit) {
 
   function elMessage (data) {
     return html`
-      <div class="px1 py0-5 m0-5 bgc-grey_15 br1-5 lh1-5">
+      <div class="px1 py0-5 m0-5 bgc-grey_15 br1-5 lh1-5 oh">
         ${raw(md.render(data.message))}
       </div>
     `

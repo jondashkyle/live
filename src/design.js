@@ -33,7 +33,7 @@ var custom = `
   }
 
   .md ul { margin-left: 1rem }
-  .md ul > li+li { margin-top: 1rem; margin-bottom: 1rem; }
+  .md ul li { margin: 0; padding: 0; }
 
   .md h1:before { content: '# ' }
   .md h2:before { content: '## ' }

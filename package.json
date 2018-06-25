@@ -4,7 +4,7 @@
   "description": "",
   "main": "src/index.js",
   "scripts": {
-    "start": "budo src/index.js:bundles/bundle.js -P --ssl -d . -- -t sheetify",
+    "start": "budo src/index.js:bundles/bundle.js -P --ssl -d . -- -t sheetify -p [ css-extract -o bundles/bundle.css ]",
     "build": "browserify src/index.js -o bundles/bundle.js -t yo-yoify -t  [ sheetify -u sheetify-cssnext ] -g es2040 -p [ css-extract -o bundles/bundle.css ] -p tinyify"
   },
   "keywords": [],
