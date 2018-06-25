@@ -19,8 +19,9 @@ function view (state, emit) {
   `
 
   function getNote () {
-    return state.chat && state.chat.messages.length > 0
-      ? state.chat.messages[state.chat.messages.length - 1].message
-      : ':)'
+    return ':)'
+    // return state.chat && state.chat.messages.length > 0
+    //   ? state.chat.messages[state.chat.messages.length - 1].message
+    //   : ':)'
   }
 }

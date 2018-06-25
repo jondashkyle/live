@@ -1,12 +1,14 @@
 var WebSocket = require('../lib/ws')
 var xtend = require('xtend')
+var xhr = require('xhr')
 
 module.exports = chat
 
 function chat (state, emitter) {
   var ws
   state.chat = {
-    address: 'wss://jk-hang.glitch.me',
+    address: 'wss://jk-hang.glitch.me/',
+    http: 'https://jk-hang.glitch.me?' + Math.floor(new Date () / 1000),
     active: false,
     live: false,
     note: 'loading',
@@ -43,8 +45,15 @@ function chat (state, emitter) {
     })
 
     ws.addEventListener('error', function (event) {
-      // alert('Problem with chat, sorry!')
-      console.warn(event)
+      console.warn('ws can not connect', event)
+      xhr(state.chat.http, function (err, res, body) {
+        try {
+          var data = JSON.parse(body)
+          state.chat = xtend(state.chat, data)
+        } catch (err) { }
+        state.chat.loaded = true
+        emitter.emit(state.events.RENDER)
+      })
     })
 
     ws.addEventListener('message', function (event) {
