@@ -1,9 +1,5 @@
 var gr8 = require('gr8')
-var fs = require('fs')
-var ress = fs.readFileSync('node_modules/ress/ress.css', 'utf8')
-
 var utils = [ ]
-
 
 var typography = {
   sans: '"Lars Mono", Menlo, Consolas, "Liberation Mono", Menlo, Courier, monospace'
@@ -132,4 +128,4 @@ var gr8css = gr8({
   breakpointSelector: 'class'
 })
 
-module.exports = ress + gr8css + custom
+module.exports = gr8css + custom

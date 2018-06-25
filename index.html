@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hang</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="I am spartacus.">
+    <meta property="og:title" content="Hang">
+    <meta name="twitter:title" content="Hang">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://hang.jon-kyle.com">
+    <meta name="twitter:description" content="I am spartacus.">
+    <meta property="og:description" content="I am spartacus.">
+    <link rel="stylesheet" href="/bundles/bundle.css">
+    <style>
+      .loading {
+        box-sizing: border-box;
+        top: 50%;
+        left: 50%;
+        position: fixed;
+        height: 34vmin;
+        width: 25vmin;
+        transform: translate(-50%, -50%);
+        image-rendering: -moz-crisp-edges;
+        -ms-interpolation-mode: nearest-neighbor;
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: -o-pixelated;
+        image-rendering: pixelated;
+      }
+
+      .ff-sans-preload, .ff-mono-preload { position: fixed; opacity: 0; }
+      .ff-sans-preload { font-family: 'Lars Sans'; }
+      .ff-mono-preload { font-family: 'Lars Mono'; }
+
+      @font-face {
+        font-family: 'Lars Sans';
+        src: url('/assets/Lars-Light.eot');
+        src: url('/assets/Lars-Light.eot?#iefix') format('embedded-opentype'),
+             url('/assets/Lars-Light.woff2') format('woff2'),
+             url('/assets/Lars-Light.woff') format('woff');
+      }
+
+      @font-face {
+        font-family: 'Lars Mono';
+        src: url('/assets/Lars-Mono.eot');
+        src: url('/assets/Lars-Mono.eot?#iefix') format('embedded-opentype'),
+             url('/assets/Lars-Mono.woff2') format('woff2'),
+             url('/assets/Lars-Mono.woff') format('woff');
+      
+    </style>
+  </head>
+  <body class="ff-sans">
+    <div class="ff-sans-preload">sans</div>
+    <div class="ff-mono-preload">mono</div>
+    <script src="/bundles/bundle.js?3"></script>
+  </body>
+</html>

@@ -1,4 +1,6 @@
 .DS_Store
-node_modules/
+.dat
+node_modules
+bundles
 dat.json
 dist

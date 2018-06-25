@@ -6,7 +6,7 @@ module.exports = chat
 function chat (state, emitter) {
   var ws
   state.chat = {
-    address: 'wss://amusing-cub.glitch.me',
+    address: 'wss://jk-hang.glitch.me',
     active: false,
     live: false,
     note: 'loading',
@@ -43,8 +43,8 @@ function chat (state, emitter) {
     })
 
     ws.addEventListener('error', function (event) {
-      alert('Problem with chat, sorry!')
-      console.warn(error)
+      // alert('Problem with chat, sorry!')
+      console.warn(event)
     })
 
     ws.addEventListener('message', function (event) {
@@ -100,9 +100,9 @@ function chat (state, emitter) {
   })
 
   emitter.on(state.events.CHAT_LIVE, function (data) {
-    console.log(state.chat.live)
     if (data && data.live !== undefined) {
       state.chat.live = data.live
+      data.pwd = 'niceone'
       ws.send(JSON.stringify(data))
     }
   })

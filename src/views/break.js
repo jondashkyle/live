@@ -19,8 +19,8 @@ function view (state, emit) {
   `
 
   function getNote () {
-    return state.chat.messages.length > 0
+    return state.chat && state.chat.messages.length > 0
       ? state.chat.messages[state.chat.messages.length - 1].message
-      : 'loading'
+      : ':)'
   }
 }
